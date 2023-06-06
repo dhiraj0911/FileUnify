@@ -3,5 +3,6 @@ pragma solidity ^0.8.0;
 
 import "./FileOwnership.sol";
 
-contract PlanetOfDocs is FileOwnership {
+contract DocsUniverse is FileOwnership {
+    
 }
