@@ -1,10 +1,12 @@
-const { ethers } = require('ethers');
+const hre = require('hardhat');
 
 async function main() {
-  const DocsUniverse = await ethers.getContractFactory("DocsUniverse");
-  console.log("Deploying DocsUniverse contract...");
+  const DocsUniverse = await hre.ethers.getContractFactory('DocsUniverse');
   const docsUniverse = await DocsUniverse.deploy();
-  console.log("DocsUniverse contract deployed to:", docsUniverse.address);
+
+  await docsUniverse.deployed();
+
+  console.log('DocsUniverse deployed to:', docsUniverse.address);
 }
 
 main()

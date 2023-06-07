@@ -1,6 +1,11 @@
-require("@nomicfoundation/hardhat-toolbox");
+require('@nomiclabs/hardhat-waffle');
+require('dotenv').config({ path: '.env' });
 
-/** @type import('hardhat/config').HardhatUserConfig */
+
 module.exports = {
-  solidity: "0.8.69",
+  solidity: '0.8.4',
+  networks: {
+    hardhat: {
+    },
+  },
 };
