@@ -2,11 +2,9 @@
 pragma solidity ^0.8.0;
 
 /** 
- * @title Planet of Docs
- * @author Bagas Fadillah Islamay
+ * @title Docs Universe
+ * @author Dhiraj Bari
  * @notice Manage files with IPFS data storing
- * @dev This contract might be buggy
- * @custom:experimental This is an experimental contract, Tugas Akhir!
  */
 
 import "./ownable.sol";
