@@ -8,7 +8,8 @@ import TransferAsset from "../assets/img/transfer.png";
 
 // Contract
 import getWeb3 from "../getWeb3";
-import DocsUniverse from "../artifacts/contracts/DocsUniverse.sol/DocsUniverse.json";
+import DocsUniverse from "../contracts/DocsUniverse.json";
+
 class Transfer extends Component {
   constructor(props) {
     super(props);

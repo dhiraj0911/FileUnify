@@ -11,7 +11,7 @@ import Ethereum from "../assets/img/ethereum.png";
 import Polygon from "../assets/img/Polygon.png";
 
 // Contract
-import DocsUniverse from "../artifacts/contracts/DocsUniverse.sol/DocsUniverse.json";
+import DocsUniverse from "../contracts/DocsUniverse.json";
 import getWeb3 from "../getWeb3";
 
 class Me extends Component {

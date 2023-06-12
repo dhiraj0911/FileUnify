@@ -9,7 +9,8 @@ import StoreAsset from "../assets/img/store.png";
 
 // Contract
 import getWeb3 from "../getWeb3";
-import DocsUniverse from "../artifacts/contracts/DocsUniverse.sol/DocsUniverse.json";
+import DocsUniverse from "../contracts/DocsUniverse.json";
+
 // IPFS
 import ipfs from "../ipfs";
 
