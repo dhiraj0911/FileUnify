@@ -11,8 +11,11 @@ import Table from "./Table";
 import getWeb3 from "../getWeb3";
 import DocsUniverse from "../contracts/DocsUniverse.json";
 
-// IPFS
-import ipfs from "../ipfs";
+import { Web3Storage } from 'web3.storage';
+
+const web3Storage = Web3Storage({
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweGU4NUVhNjc2Q0JBZkEyYjlERTM4MDdiYWQ1NjA1QTNjMjc0NzIzYjEiLCJpc3MiOiJ3ZWIzLXN0b3JhZ2UiLCJpYXQiOjE2ODY1NjE5ODI2MjYsIm5hbWUiOiJEb2NzIFVuaXZlcnNlIn0.hNw_3j_N2VRdF6usYIZQkqZCvbGjkJZuCQ-5Utu_nsI'
+});
 
 class Ownership extends Component {
   constructor(props) {
@@ -140,9 +143,11 @@ class Ownership extends Component {
     let content = this.state.fileToUpload;
     this.setState({ fileName: content.name });
 
-    let fileUploaded = await ipfs.files.add(this.state.buffer, {
-      onlyHash: true,
-    });
+    // let fileUploaded = await ipfs.files.add(this.state.buffer, {
+    //   onlyHash: true,
+    // });
+    let fileUploaded = await web3Storage.put(this.state.buffer);
+
     let hashToCheck = fileUploaded[0].hash;
     this.setState({ hashToCheck: hashToCheck });
     let checkOwnershipForm =
