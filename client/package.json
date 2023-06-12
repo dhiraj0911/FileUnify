@@ -8,6 +8,7 @@
     "bootstrap": "^5.0.2",
     "dotenv": "^16.0.3",
     "ipfs-api": "^26.1.2",
+    "ipfs-car": "^1.0.0",
     "ipfs-http-client": "^60.0.0",
     "react": "16.11.0",
     "react-dom": "16.11.0",
