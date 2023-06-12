@@ -188,7 +188,7 @@ class Ownership extends Component {
             name="description"
             content="Ethereum x IPFS DApp."
           />
-          <meta id="og-title" property="og:title" content="Planet of Docs" />
+          <meta id="og-title" property="og:title" content="Docs Universe" />
         </MetaTags>
 
         <div className="container">

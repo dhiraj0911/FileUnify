@@ -52,7 +52,7 @@ class Me extends Component {
           <title>Me</title>
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <meta id="meta-description" name="description" content="Ethereum x IPFS DApp." />
-          <meta id="og-title" property="og:title" content="Planet of Docs" />
+          <meta id="og-title" property="og:title" content="Docs Universe" />
         </MetaTags>
 
         <div className="container">

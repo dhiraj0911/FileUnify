@@ -14,13 +14,6 @@ import DocsUniverse from "../contracts/DocsUniverse.json";
 // IPFS
 import ipfs from "../ipfs";
 
-//web3.storage
-// import process from 'process'
-// import minimist from 'minimist'
-// import { Web3Storage, getFilesFromPath } from 'web3.storage'
-// const ipfs = new Web3Storage({ token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweGU4NUVhNjc2Q0JBZkEyYjlERTM4MDdiYWQ1NjA1QTNjMjc0NzIzYjEiLCJpc3MiOiJ3ZWIzLXN0b3JhZ2UiLCJpYXQiOjE2ODY1NjE5ODI2MjYsIm5hbWUiOiJEb2NzIFVuaXZlcnNlIn0.hNw_3j_N2VRdF6usYIZQkqZCvbGjkJZuCQ-5Utu_nsI" })
-
-
 class CheckFileExistError extends Error {
   constructor(message, type) {
     super(message);
@@ -185,7 +178,7 @@ class Store extends Component {
             name="description"
             content="Ethereum x IPFS DApp."
           />
-          <meta id="og-title" property="og:title" content="Planet of Docs" />
+          <meta id="og-title" property="og:title" content="Docs Universe" />
         </MetaTags>
 
         <div className="container">

@@ -97,7 +97,7 @@ function Home() {
               </p>
               <p>
                 Yes you can do ownership transfer!
-                Planet of Docs lets you transfer ownership of your stored files.
+                Docs Universe lets you transfer ownership of your stored files.
                 We thank our sole developer who have grown us to this extent.
                 All you need is your file and address of the recipient.
                 Don't worry, it's all free because we implement ownership transfer with non-payable rules.
