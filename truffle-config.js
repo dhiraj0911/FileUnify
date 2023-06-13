@@ -8,23 +8,14 @@ const alchemyKey = process.env.ALCHEMY;
 module.exports = {
   contracts_build_directory: path.join(__dirname, "client/src/contracts"),
   networks: {
-    mumbai: {
+    calibration: {
       provider: function () {
         return new HDWalletProvider(
           mnemonic,
-          `https://polygon-mumbai.g.alchemy.com/v2/${alchemyKey}`
+          "https://api.calibration.node.glif.io/rpc/v1"
         );
       },
-      network_id: 80001,
-    },
-    goerli: {
-      provider: function () {
-        return new HDWalletProvider(
-          mnemonic,
-          `https://eth-goerli.g.alchemy.com/v2/${alchemyKey}`
-        );
-      },
-      network_id: 5,
+      network_id: 314159,
     },
     ganache: {
       host: "127.0.0.1",
