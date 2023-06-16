@@ -11,10 +11,12 @@ function Footer() {
             <div className="col-lg-4 col-md-6">
               <h5 className="h1 text-dark">FileUnify</h5>
               <p className="small text-muted">
-              Secure Your Smart Contracts with SecureDapp
+              Implementation of Blockchain and Peer-to-Peer Network for Digital Document Management.
+
+
               </p>
               <p className="small text-muted mb-0">
-                &copy; Trusted Smart Contract Audit Firm
+                &copy; All rights reserved- Dhiraj Bari
               </p>
             </div>
             <div className="col-lg-3 col-md-6">
