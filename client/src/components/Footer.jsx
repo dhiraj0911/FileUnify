@@ -11,11 +11,10 @@ function Footer() {
             <div className="col-lg-4 col-md-6">
               <h5 className="h1 text-dark">Docs Universe</h5>
               <p className="small text-muted">
-                Implementation of Blockchain and
-                Peer-to-Peer Network for Digital Document Management.
+              Secure Your Smart Contracts with SecureDapp
               </p>
               <p className="small text-muted mb-0">
-                &copy; All rights reserved- Dhiraj Bari.
+                &copy; Trusted Smart Contract Audit Firm
               </p>
             </div>
             <div className="col-lg-3 col-md-6">

@@ -2,7 +2,7 @@
 pragma solidity ^0.8.0;
 
 /** 
- * @title Docs Universe
+ * @title FileUnify
  * @author Dhiraj Bari
  * @notice Manage files with IPFS data storing
  */
