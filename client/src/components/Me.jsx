@@ -7,8 +7,7 @@ import MeAsset from "../assets/img/me.png";
 import MetamaskAsset from "../assets/img/metamask.png";
 import Filecoin from "../assets/img/filecoin.png";
 import Ipfs from "../assets/img/ipfs.png";
-import Ethereum from "../assets/img/ethereum.png";
-import Polygon from "../assets/img/Polygon.png";
+import FVM from "../assets/img/fvm.png"
 
 // Contract
 import FileUnify from "../contracts/FileUnify.json";
@@ -57,12 +56,12 @@ class Me extends Component {
 
         <div className="container">
           <center className="lead">
-            <b>{"Support Me 😊"}<br /></b>
+            <b>{"Support Me :)"}<br /></b>
             <br/>
             <span className="fs-6 fw-bold">
+            Filecoin Address: f1aq5sg2r53ws3tlki77phxdjwac3pcblsk7syaaq <br />
             Ethereum Address: 0x62D02613ed56119705165942cc724f207899D1C4<br />
             
-            Filecoin Address: f1aq5sg2r53ws3tlki77phxdjwac3pcblsk7syaaq <br />
             </span>
           </center>
           <div className="justify-content-between">
@@ -90,18 +89,18 @@ class Me extends Component {
         <div className="container">
             <div className="row align-items-center justify-content-between">
               <div className="col-md text-center">
-                <img src={Ethereum} className="img-fluid" width="50%" height="50%" alt="" />
+                <img src={FVM} className="img-fluid" width="50%" height="50%" alt="" />
               </div>
               <div className="col-md p-5">
-                <h2>Ethereum</h2>
+                <h2>Filecoin Virtual Machine</h2>
                 <p className="lead">
-                Ethereum is a decentralized, open-source blockchain with smart contract functionality.
+                FVM is a runtime environment for smart contracts on the Filecoin network.
                 </p>
                 <p>
-                  All smart contracts are stored publicly on every node of the blockchain, which has costs.'Secure by design' means that every new transaction is recorded on a new 'block', which is connected to previous and future 'blocks', like a chain.
+                Filecoin Virtual Machine is an EVM-compatible programmability layer on the Filecoin network
                 </p>
-                <a href="https://ethereum.org/en/" className="btn btn-light mt-3" target="_blank" rel="noreferrer">
-                  <i className="bi bi-chevron-right"></i> Ethereum
+                <a href="https://fvm.filecoin.io/" className="btn btn-light mt-3" target="_blank" rel="noreferrer">
+                  <i className="bi bi-chevron-right"></i> FVM
                 </a>
               </div>
             </div>
@@ -128,24 +127,6 @@ class Me extends Component {
                 </a>&nbsp;&nbsp;&nbsp;    
                 <a href="https://filecoin.io/" className="btn btn-light mt-3" target="_blank" rel="noreferrer">
                   <i className="bi bi-chevron-right"></i> Filecoin
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="container">
-            <div className="row align-items-center justify-content-between">
-              <div className="col-md text-center">
-                <img src={Polygon} className="img-fluid" width="50%" height="50%" alt="" />
-              </div>
-              <div className="col-md p-5">
-                <h2>Polygon</h2>
-                <p className="lead">
-                Polygon is the most proven way to build and scale decentralized application and projects on Ethereum</p>
-                <p>
-                Polygon uses a modified proof of stake consensus mechanism that enables a consensus to be achieved with every block. Achieving consensus using traditional proof of stake requires processing many blocks to achieve consensus. The proof of stake method requires network participants to stake—agree to not trade or sell—their MATIC tokens.
-                </p>
-                <a href="https://polygon.technology/" className="btn btn-light mt-3" target="_blank" rel="noreferrer">
-                  <i className="bi bi-chevron-right"></i> Polygon
                 </a>
               </div>
             </div>

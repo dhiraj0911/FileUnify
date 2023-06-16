@@ -23,11 +23,15 @@ function Home() {
             <div>
               <h1>Welcome to <span className="text-warning">FileUnify</span></h1>
               <p className="lead">
-                FileUnify is a web based <span className="fw-bold text-warning">Decentralized Application (Dapp)</span> that allows you to store your important assets on our <span className="fw-bold text-warning">InterPlanetary File System (IPFS)</span> instance.
-                Ownership of your files is securely recorded on the <span className="fw-bold text-warning">Ethereum</span> blockchain making FileUnify <span className="fw-bold text-warning">(DU)</span> the best platform to store your assets.
-                As your asset management system, FileUnify also has some interesting features such as ownership transfer, log monitoring and asset retrieval.<br /><br />
                 
-                Let's start!
+              FileUnify is a revolutionary <span className="fw- text-warning">DApp</span> that harnesses the strengths of 
+              <span className="fw text-warning"> IPFS </span>and <span className="fw text-warning">FVM</span> to provide a safe and reliable 
+               storage solution for <span className="fw text-warning">humanity&apos;s </span>most important information. With innovative features like 
+              ownership <span className="fw text-warning"> transfer,</span> owner<span className="fw text-warning"> checking,</span> and asset <span className="fw text-warning">retrieval.</span>
+              <span className="fw-bold text-warning">
+                <br/>
+                <br/>
+                FileUnify</span> is the go-to platform for safeguarding digital assets or documents.
               </p>
             </div>
           </div>

@@ -9,10 +9,9 @@ function Navigation() {
     <div className="navigation">
       <nav className="navbar navbar-expand-lg bg-dark navbar-dark py-3">
         <div className="container">
-          //logo image
-          
           <a href="/" className="navbar-brand">
             <img src={logo} className="img-fluid" alt="" height={30} width={30}/>
+            &nbsp;
             &nbsp;
             FileUnify
           </a>
