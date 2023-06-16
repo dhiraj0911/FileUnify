@@ -11,7 +11,7 @@ import Ethereum from "../assets/img/ethereum.png";
 import Polygon from "../assets/img/Polygon.png";
 
 // Contract
-import DocsUniverse from "../contracts/DocsUniverse.json";
+import FileUnify from "../contracts/FileUnify.json";
 import getWeb3 from "../getWeb3";
 
 class Me extends Component {
@@ -24,8 +24,8 @@ class Me extends Component {
   componentDidMount = async () => {
     const web3 = await getWeb3();
     const networkId = await web3.eth.net.getId();
-    const deployedNetwork = DocsUniverse.networks[networkId];
-    const instance = new web3.eth.Contract(DocsUniverse.abi,
+    const deployedNetwork = FileUnify.networks[networkId];
+    const instance = new web3.eth.Contract(FileUnify.abi,
       deployedNetwork && deployedNetwork.address,
     );
     this.setState({ web3, contract: instance})
@@ -36,7 +36,7 @@ class Me extends Component {
         if(this.state.activeAccount !== accounts[0]){
           var active = accounts[0];
           this.setState({ activeAccount: active })
-          this.setState({ tagline: "You are now online on Docs Universe!"})
+          this.setState({ tagline: "You are now online on FileUnify!"})
         }
       } catch (error) {
         alert(`You are offline, connect to metamask to continue.`);
@@ -52,7 +52,7 @@ class Me extends Component {
           <title>Me</title>
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <meta id="meta-description" name="description" content="Ethereum x IPFS DApp." />
-          <meta id="og-title" property="og:title" content="Docs Universe" />
+          <meta id="og-title" property="og:title" content="FileUnify" />
         </MetaTags>
 
         <div className="container">

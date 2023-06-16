@@ -3,7 +3,6 @@ require("dotenv").config();
 const HDWalletProvider = require("@truffle/hdwallet-provider");
 
 const mnemonic = process.env.MNEMONIC;
-const alchemyKey = process.env.ALCHEMY;
 
 module.exports = {
   contracts_build_directory: path.join(__dirname, "client/src/contracts"),

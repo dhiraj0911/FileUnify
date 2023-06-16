@@ -1,5 +1,5 @@
-var DocsUniverse = artifacts.require("./DocsUniverse.sol");
+var FileUnify = artifacts.require("./FileUnify.sol");
 
 module.exports = function(deployer) {
-  deployer.deploy(DocsUniverse);
+  deployer.deploy(FileUnify);
 };

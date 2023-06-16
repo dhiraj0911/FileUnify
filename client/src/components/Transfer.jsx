@@ -8,7 +8,7 @@ import TransferAsset from "../assets/img/transfer.png";
 
 // Contract
 import getWeb3 from "../getWeb3";
-import DocsUniverse from "../contracts/DocsUniverse.json";
+import FileUnify from "../contracts/FileUnify.json";
 
 class Transfer extends Component {
   constructor(props) {
@@ -28,9 +28,9 @@ class Transfer extends Component {
   componentDidMount = async () => {
     const web3 = await getWeb3();
     const networkId = await web3.eth.net.getId();
-    const deployedNetwork = DocsUniverse.networks[networkId];
+    const deployedNetwork = FileUnify.networks[networkId];
     const instance = new web3.eth.Contract(
-      DocsUniverse.abi,
+      FileUnify.abi,
       deployedNetwork && deployedNetwork.address
     );
     this.setState({ web3, contract: instance });
@@ -162,7 +162,7 @@ class Transfer extends Component {
             name="description"
             content="Ethereum x IPFS DApp."
           />
-          <meta id="og-title" property="og:title" content="Docs Universe" />
+          <meta id="og-title" property="og:title" content="FileUnify" />
         </MetaTags>
 
         <div className="container">

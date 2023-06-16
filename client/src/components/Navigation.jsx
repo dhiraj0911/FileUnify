@@ -14,7 +14,7 @@ function Navigation() {
           <a href="/" className="navbar-brand">
             <img src={logo} className="img-fluid" alt="" height={30} width={30}/>
             &nbsp;
-            Docs Universe
+            FileUnify
           </a>
 
           <button

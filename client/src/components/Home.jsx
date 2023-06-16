@@ -11,7 +11,7 @@ function Home() {
   return (
     <div className="home">
       <MetaTags>
-      <title>Docs Universe</title>
+      <title>FileUnify</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta id="meta-description" name="description" content="Ethereum x IPFS DApp." />
         <meta id="og-title" property="og:title" content="MyApp" />
@@ -21,11 +21,11 @@ function Home() {
         <div className="container">
           <div className="d-sm-flex">
             <div>
-              <h1>Welcome to <span className="text-warning">Docs Universe</span></h1>
+              <h1>Welcome to <span className="text-warning">FileUnify</span></h1>
               <p className="lead">
-                Docs Universe is a web based <span className="fw-bold text-warning">Decentralized Application (Dapp)</span> that allows you to store your important assets on our <span className="fw-bold text-warning">InterPlanetary File System (IPFS)</span> instance.
-                Ownership of your files is securely recorded on the <span className="fw-bold text-warning">Ethereum</span> blockchain making Docs Universe <span className="fw-bold text-warning">(DU)</span> the best platform to store your assets.
-                As your asset management system, Docs Universe also has some interesting features such as ownership transfer, log monitoring and asset retrieval.<br /><br />
+                FileUnify is a web based <span className="fw-bold text-warning">Decentralized Application (Dapp)</span> that allows you to store your important assets on our <span className="fw-bold text-warning">InterPlanetary File System (IPFS)</span> instance.
+                Ownership of your files is securely recorded on the <span className="fw-bold text-warning">Ethereum</span> blockchain making FileUnify <span className="fw-bold text-warning">(DU)</span> the best platform to store your assets.
+                As your asset management system, FileUnify also has some interesting features such as ownership transfer, log monitoring and asset retrieval.<br /><br />
                 
                 Let's start!
               </p>
@@ -97,7 +97,7 @@ function Home() {
               </p>
               <p>
                 Yes you can do ownership transfer!
-                Docs Universe lets you transfer ownership of your stored files.
+                FileUnify lets you transfer ownership of your stored files.
                 We thank our sole developer who have grown us to this extent.
                 All you need is your file and address of the recipient.
                 Don't worry, it's all free because we implement ownership transfer with non-payable rules.

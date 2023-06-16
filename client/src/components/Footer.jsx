@@ -9,7 +9,7 @@ function Footer() {
         <div className="container py-4">
           <div className="row gy-4 gx-5">
             <div className="col-lg-4 col-md-6">
-              <h5 className="h1 text-dark">Docs Universe</h5>
+              <h5 className="h1 text-dark">FileUnify</h5>
               <p className="small text-muted">
               Secure Your Smart Contracts with SecureDapp
               </p>
