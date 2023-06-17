@@ -10,7 +10,7 @@ import Ipfs from "../assets/img/ipfs.png";
 import FVM from "../assets/img/fvm.png"
 
 // Contract
-import FileUnify from "../contracts/FileUnify.json";
+import FileUnify from "../artifacts/FileUnify.json";
 import getWeb3 from "../getWeb3";
 
 class Me extends Component {

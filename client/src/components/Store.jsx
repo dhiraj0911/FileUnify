@@ -9,7 +9,7 @@ import StoreAsset from "../assets/img/store.png";
 
 // Contract
 import getWeb3 from "../getWeb3";
-import FileUnify from "../contracts/FileUnify.json";
+import FileUnify from "../artifacts/FileUnify.json";
 
 // IPFS
 import ipfs from "../ipfs";

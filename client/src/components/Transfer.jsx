@@ -8,7 +8,7 @@ import TransferAsset from "../assets/img/transfer.png";
 
 // Contract
 import getWeb3 from "../getWeb3";
-import FileUnify from "../contracts/FileUnify.json";
+import FileUnify from "../artifacts/FileUnify.json";
 
 class Transfer extends Component {
   constructor(props) {
