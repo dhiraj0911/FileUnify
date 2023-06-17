@@ -28,10 +28,10 @@ function Home() {
               <span className="fw text-warning"> IPFS </span>and <span className="fw text-warning">FVM</span> to provide a safe and reliable 
                storage solution for <span className="fw text-warning">humanity&apos;s </span>most important information. With innovative features like 
               ownership <span className="fw text-warning"> transfer,</span> owner<span className="fw text-warning"> checking,</span> and asset <span className="fw text-warning">retrieval.</span>
-              <span className="fw-bold text-warning">
+              {/* <span className="fw-bold text-warning">
                 <br/>
                 <br/>
-                FileUnify</span> is the go-to platform for safeguarding digital assets or documents.
+                FileUnify</span> is the go-to platform for safeguarding digital assets or documents. */}
               </p>
             </div>
           </div>
@@ -55,8 +55,8 @@ function Home() {
                 IPFS will take care of your files while our smart contracts will record your transactions
                 securely on the blockchain.
               </p>
-              <a href="/store" className="btn btn-light mt-3">
-                <i className="bi bi-chevron-right"></i> Store
+              <a href="/store" class="btn btn-dark mt-3 text-white">
+                <i class="bi bi-chevron-right"></i> Store
               </a>
             </div>
           </div>
@@ -106,8 +106,8 @@ function Home() {
                 All you need is your file and address of the recipient.
                 Don't worry, it's all free because we implement ownership transfer with non-payable rules.
               </p>
-              <a href="/transfer" className="btn btn-light mt-3">
-                <i className="bi bi-chevron-right"></i> Transfer
+              <a href="/transfer" class="btn btn-dark mt-3 text-white">
+                <i class="bi bi-chevron-right"></i> Transfer
               </a>
             </div>
           </div>
